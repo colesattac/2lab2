@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TSN_DEMO_07_Calendar</string>
+
+    <string name="Настройки">Настройки</string>
+    <string name="Выберите_нужную_дату">Выберите нужную дату:</string>
+    <string name="Данные_выбранного_учебного_дня">Данные выбранного учебного дня:</string>
+    <string name="Выберите_дату_в_календаре">Выберите дату в календаре</string>
+    <string name="Настройки_приложения">Настройки приложения</string>
+    <string name="email">Отзывы и предложения по адресу: talipovsn@gmail.com</string>
+    <string name="Выбрано">"Выбрано: "</string>
+    <string name="Неделя_семестра">"\nНеделя семестра: "</string>
+    <string name="Сейчас">"\nЭто: "</string>
+    <string name="Числитель">Числитель</string>
+    <string name="Знаменатель">Знаменатель</string>
+    <string name="Поправка">Установите данный параметр для верного расчета</string>
+    <string name="Комментарий_поправки">Поправка для числителя/знаменателя</string>
+    <string name="Введите_начало_семестра">Задайте номер недели начала семестра</string>
+    <string name="Общие_настройки">Общие настрйки</string>
+    <string name="О_программе">О программе</string>
+    <string name="Примечание_к_текущему_семестру">Примечание к текущему семестру</string>
+    <string name="Например_нужна_поправка">Нужна поправка, номер недели начала 6</string>
+    <string name="Эта_дата_не_входит_в_семестр">\nЭта дата не входит в семестр)</string>
+
+    <string name="fullNameTitle">ФИО</string>
+    <string name="fullNameValue">Иванцев Иван Иванович</string>
+    <string name="dateTitle">Дата рождения</string>
+    <string name="dateValue">01.01.2023</string>
+
+
+    <string name="Размер_шрифта">Размер шрифта</string>
+
+    <string-array name="Размер_шрифта_текст">
+        <item>12 sp</item>
+        <item>14 sp</item>
+        <item>16 sp</item>
+    </string-array>
+    <string-array name="Размер_шрифта_значения">
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+    </string-array>
+
+    <string name="fontSize">14</string>
+
+</resources>

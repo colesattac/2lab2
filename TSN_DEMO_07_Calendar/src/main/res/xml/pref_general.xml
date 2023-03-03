@@ -1,0 +1,56 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Логический переключатель, параметр "offsetNumerator" -->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="offsetNumerator"
+        android:summary="@string/Поправка"
+        android:title="@string/Комментарий_поправки" />
+
+    <!-- Ввод числа, параметр "displacementWeekSemester" -->
+    <EditTextPreference
+        android:capitalize="none"
+        android:defaultValue="0"
+        android:inputType="numberDecimal"
+        android:key="displacementWeekSemester"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/Введите_начало_семестра" />
+
+    <!-- Ввод текста, параметр "noteSemester" -->
+    <EditTextPreference
+        android:capitalize="characters"
+        android:defaultValue="@string/Например_нужна_поправка"
+        android:inputType="textMultiLine"
+        android:key="noteSemester"
+        android:selectAllOnFocus="true"
+        android:singleLine="false"
+        android:title="@string/Примечание_к_текущему_семестру" />
+
+    <!-- Выбор из списка, параметр "fontSize" -->
+    <ListPreference
+        android:defaultValue="@string/fontSize"
+        android:entries="@array/Размер_шрифта_текст"
+        android:entryValues="@array/Размер_шрифта_значения"
+        android:key="fontSize"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/Размер_шрифта"/>
+    <EditTextPreference
+        android:defaultValue="@string/fullNameValue"
+        android:inputType="textMultiLine"
+        android:key="fullName"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/fullNameTitle" />
+
+    <EditTextPreference
+        android:defaultValue="@string/dateValue"
+        android:inputType="textMultiLine"
+        android:key="dateOfBirth"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/dateTitle" />
+
+</PreferenceScreen>

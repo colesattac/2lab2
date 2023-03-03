@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="kz.talipovsn.calendar.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calendarView"
+        android:layout_weight="1"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/editText"
+        android:hint="@string/Выберите_дату_в_календаре"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        tools:editable="false"
+        android:textSize="16sp"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center"
+        android:focusableInTouchMode="false" />
+
+</LinearLayout>
